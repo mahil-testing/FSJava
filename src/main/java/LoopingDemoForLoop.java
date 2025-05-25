@@ -1,7 +1,7 @@
-public class LoopingDemo {
+public class LoopingDemoForLoop {
     public static void main(String[] args) {
         //calling static method-class name.method name
-        LoopingDemo.forDemo();
+        LoopingDemoForLoop.forDemo();
     }
     public static void forDemo() {
 
