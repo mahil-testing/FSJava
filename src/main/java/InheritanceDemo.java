@@ -21,7 +21,7 @@ public class InheritanceDemo {
         //4 create instance of chrome class which is child here & you are assigning it to parent(Chromium)
         // it make instance of child but behave as parent, it will not access the method of child
         Chromium ch2=new Chrome();
-        ch2.devTools(); //not allowed here
+        //ch2.devTools(); //not allowed here
         ch2.cliInspect();
         ch2.openURL();
 
@@ -29,8 +29,8 @@ public class InheritanceDemo {
         //5 create instance of chrome class which is child here & you are assigning it to Grandparent(Browser)
          Browser ch3=new Chrome();
          ch3.openURL();
-         ch3.devTools(); //not allowed
-         ch3.cliInspect(); //not allowed
+        // ch3.devTools(); //not allowed
+        // ch3.cliInspect(); //not allowed
 
         //6 Object ch4=new Chrome();
 
