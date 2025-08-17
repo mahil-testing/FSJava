@@ -45,5 +45,7 @@ public class OperationDemo {
         d=d-5;
         //or
         d-=5;
+
+        //7 conditional operator
     }
 }
